@@ -1,0 +1,33 @@
+
+{
+    "name": "KATURLS BOT",
+    "description": "A PHP Telegram Bot To Short Your Links Using KatURLs API",
+    "keywords": [
+        "Short Links",
+        "Earn Money",
+        "Bot"
+    ],
+    "logo": "http://katurls.com/banner/logo-min.png",
+    "repository": "https://github.com/kashifanmolofficial/KatURLs-bot/",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+
+        },"BOT_USERNAME": {
+            "description": "USER NAME OF YOUR BOT"
+        },
+"KATURLS_API_KEY": {
+            "description": "GET YOUR API KEY FROM https://katurls.com/member/tools/api"
+
+        }
+        
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
